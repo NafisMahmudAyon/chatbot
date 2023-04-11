@@ -17,7 +17,7 @@ function App() {
 
     const fetchBotResponse = async () => {
         const { data } = await axios.post(
-            "https://tubular-axolotl-c24839.netlify.app/",
+            "https://chatbot-d6cg.onrender.com",
             // "http://localhost:5173",
             { input },
             {

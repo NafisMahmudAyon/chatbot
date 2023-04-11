@@ -6,9 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-/api/node_modules
+api/node_modules
 /api/.env
 node_modules
+.env
+.package-lock.json
 dist
 dist-ssr
 *.local
