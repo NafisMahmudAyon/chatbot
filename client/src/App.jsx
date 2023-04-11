@@ -29,6 +29,8 @@ function App() {
         return data;
     };
 
+
+    
     const autoTypingBotResponse = (text) => {
         let index = 0;
         let interval = setInterval(() => {
