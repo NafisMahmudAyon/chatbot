@@ -43,7 +43,7 @@ app.post("/", async (req, res) => {
           });
     } catch (err) {
         console.log("FAILED: ", req.body.input)
-        console.err(err);
+        console.error(err);
         res.status(500).send(err)
     }
 });
